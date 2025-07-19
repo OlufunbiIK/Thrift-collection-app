@@ -9,6 +9,10 @@ const customersData = [
     lastPaymentDate: "2025-07-08",
     isActive: true,
     imageUrl: "https://randomuser.me/api/portraits/women/65.jpg",
+    contributionHistory: [
+      { date: "2024-01-15", amount: 500, type: "deposit" },
+      { date: "2024-01-01", amount: 1000, type: "deposit" },
+    ],
   },
   {
     id: 2,
@@ -20,6 +24,10 @@ const customersData = [
     lastPaymentDate: "2025-07-06",
     isActive: true,
     imageUrl: "https://randomuser.me/api/portraits/men/32.jpg",
+    contributionHistory: [
+      { date: "2024-01-15", amount: 500, type: "deposit" },
+      { date: "2024-01-01", amount: 1000, type: "deposit" },
+    ],
   },
   {
     id: 3,
@@ -31,6 +39,10 @@ const customersData = [
     lastPaymentDate: "2025-06-28",
     isActive: false,
     imageUrl: "https://randomuser.me/api/portraits/women/47.jpg",
+    contributionHistory: [
+      { date: "2024-01-15", amount: 500, type: "deposit" },
+      { date: "2024-01-01", amount: 1000, type: "deposit" },
+    ],
   },
   {
     id: 4,
@@ -42,6 +54,10 @@ const customersData = [
     lastPaymentDate: "2025-07-10",
     isActive: true,
     imageUrl: "https://randomuser.me/api/portraits/men/28.jpg",
+    contributionHistory: [
+      { date: "2024-01-15", amount: 500, type: "deposit" },
+      { date: "2024-01-01", amount: 1000, type: "deposit" },
+    ],
   },
   {
     id: 5,
@@ -53,6 +69,10 @@ const customersData = [
     lastPaymentDate: "2025-07-03",
     isActive: true,
     imageUrl: "https://randomuser.me/api/portraits/women/15.jpg",
+    contributionHistory: [
+      { date: "2024-01-15", amount: 500, type: "deposit" },
+      { date: "2024-01-01", amount: 1000, type: "deposit" },
+    ],
   },
 ];
 

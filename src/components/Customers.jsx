@@ -1,7 +1,7 @@
 import { Mail, Phone, Check } from "lucide-react";
 import Button from "./Button";
 
-export default function Customer({ customer, onSelect }) {
+export default function Customer({ customer, onSelect, onShowContribution }) {
   const getBalanceColor = (balance) => {
     if (balance < 0) return "text-red-600 bg-red-50";
     if (balance > 0) return "text-blue-600 bg-blue-50";
@@ -75,9 +75,13 @@ export default function Customer({ customer, onSelect }) {
           </div>
 
           <div className="flex-shrink-0">
-            <Button onClick={() => onSelect(customer)} variant="primary">
+            <Button
+              onClick={() => onSelect(customer)}
+              onShowContribution
+              variant="primary"
+            >
               <Check className="w-4 h-4 mr-2" />
-              Select
+              Add your Contribution
             </Button>
           </div>
         </div>
